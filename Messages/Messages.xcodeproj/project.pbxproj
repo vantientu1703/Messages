@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF240FAC230AE6D000C4A52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FAB230AE6D000C4A52F /* AppDelegate.swift */; };
+		EF240FAE230AE6D000C4A52F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FAD230AE6D000C4A52F /* MainViewController.swift */; };
+		EF240FB1230AE6D000C4A52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF240FAF230AE6D000C4A52F /* Main.storyboard */; };
+		EF240FB3230AE6D200C4A52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF240FB2230AE6D200C4A52F /* Assets.xcassets */; };
+		EF240FB6230AE6D200C4A52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF240FB4230AE6D200C4A52F /* LaunchScreen.storyboard */; };
+		EF240FC1230AE6D200C4A52F /* MessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FC0230AE6D200C4A52F /* MessagesTests.swift */; };
+		EF240FCC230AE6D200C4A52F /* MessagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FCB230AE6D200C4A52F /* MessagesUITests.swift */; };
+		EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FDB230AE70A00C4A52F /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF240FBD230AE6D200C4A52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF240FA0230AE6D000C4A52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF240FA7230AE6D000C4A52F;
+			remoteInfo = Messages;
+		};
+		EF240FC8230AE6D200C4A52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF240FA0230AE6D000C4A52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF240FA7230AE6D000C4A52F;
+			remoteInfo = Messages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF240FA8230AE6D000C4A52F /* Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF240FAB230AE6D000C4A52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF240FAD230AE6D000C4A52F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF240FB0230AE6D000C4A52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF240FB2230AE6D200C4A52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF240FB5230AE6D200C4A52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF240FB7230AE6D200C4A52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF240FBC230AE6D200C4A52F /* MessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF240FC0230AE6D200C4A52F /* MessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTests.swift; sourceTree = "<group>"; };
+		EF240FC2230AE6D200C4A52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF240FC7230AE6D200C4A52F /* MessagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF240FCB230AE6D200C4A52F /* MessagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesUITests.swift; sourceTree = "<group>"; };
+		EF240FCD230AE6D200C4A52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF240FDB230AE70A00C4A52F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF240FA5230AE6D000C4A52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FB9230AE6D200C4A52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FC4230AE6D200C4A52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF240F9F230AE6D000C4A52F = {
+			isa = PBXGroup;
+			children = (
+				EF240FAA230AE6D000C4A52F /* Messages */,
+				EF240FBF230AE6D200C4A52F /* MessagesTests */,
+				EF240FCA230AE6D200C4A52F /* MessagesUITests */,
+				EF240FA9230AE6D000C4A52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF240FA9230AE6D000C4A52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FA8230AE6D000C4A52F /* Messages.app */,
+				EF240FBC230AE6D200C4A52F /* MessagesTests.xctest */,
+				EF240FC7230AE6D200C4A52F /* MessagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF240FAA230AE6D000C4A52F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FAB230AE6D000C4A52F /* AppDelegate.swift */,
+				EF240FD9230AE6E500C4A52F /* Modules */,
+				EF240FB2230AE6D200C4A52F /* Assets.xcassets */,
+				EF240FB4230AE6D200C4A52F /* LaunchScreen.storyboard */,
+				EF240FB7230AE6D200C4A52F /* Info.plist */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		EF240FBF230AE6D200C4A52F /* MessagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FC0230AE6D200C4A52F /* MessagesTests.swift */,
+				EF240FC2230AE6D200C4A52F /* Info.plist */,
+			);
+			path = MessagesTests;
+			sourceTree = "<group>";
+		};
+		EF240FCA230AE6D200C4A52F /* MessagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FCB230AE6D200C4A52F /* MessagesUITests.swift */,
+				EF240FCD230AE6D200C4A52F /* Info.plist */,
+			);
+			path = MessagesUITests;
+			sourceTree = "<group>";
+		};
+		EF240FD9230AE6E500C4A52F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FDA230AE6F700C4A52F /* BaseViewController */,
+				EF240FDD230AE70F00C4A52F /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EF240FDA230AE6F700C4A52F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FDB230AE70A00C4A52F /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		EF240FDD230AE70F00C4A52F /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FDE230AE74400C4A52F /* Views */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		EF240FDE230AE74400C4A52F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF240FAD230AE6D000C4A52F /* MainViewController.swift */,
+				EF240FAF230AE6D000C4A52F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF240FA7230AE6D000C4A52F /* Messages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF240FD0230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "Messages" */;
+			buildPhases = (
+				EF240FA4230AE6D000C4A52F /* Sources */,
+				EF240FA5230AE6D000C4A52F /* Frameworks */,
+				EF240FA6230AE6D000C4A52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Messages;
+			productName = Messages;
+			productReference = EF240FA8230AE6D000C4A52F /* Messages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF240FBB230AE6D200C4A52F /* MessagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF240FD3230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "MessagesTests" */;
+			buildPhases = (
+				EF240FB8230AE6D200C4A52F /* Sources */,
+				EF240FB9230AE6D200C4A52F /* Frameworks */,
+				EF240FBA230AE6D200C4A52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF240FBE230AE6D200C4A52F /* PBXTargetDependency */,
+			);
+			name = MessagesTests;
+			productName = MessagesTests;
+			productReference = EF240FBC230AE6D200C4A52F /* MessagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF240FC6230AE6D200C4A52F /* MessagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF240FD6230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "MessagesUITests" */;
+			buildPhases = (
+				EF240FC3230AE6D200C4A52F /* Sources */,
+				EF240FC4230AE6D200C4A52F /* Frameworks */,
+				EF240FC5230AE6D200C4A52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF240FC9230AE6D200C4A52F /* PBXTargetDependency */,
+			);
+			name = MessagesUITests;
+			productName = MessagesUITests;
+			productReference = EF240FC7230AE6D200C4A52F /* MessagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF240FA0230AE6D000C4A52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Văn Tiến Tú";
+				TargetAttributes = {
+					EF240FA7230AE6D000C4A52F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EF240FBB230AE6D200C4A52F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EF240FA7230AE6D000C4A52F;
+					};
+					EF240FC6230AE6D200C4A52F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EF240FA7230AE6D000C4A52F;
+					};
+				};
+			};
+			buildConfigurationList = EF240FA3230AE6D000C4A52F /* Build configuration list for PBXProject "Messages" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF240F9F230AE6D000C4A52F;
+			productRefGroup = EF240FA9230AE6D000C4A52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF240FA7230AE6D000C4A52F /* Messages */,
+				EF240FBB230AE6D200C4A52F /* MessagesTests */,
+				EF240FC6230AE6D200C4A52F /* MessagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF240FA6230AE6D000C4A52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF240FB6230AE6D200C4A52F /* LaunchScreen.storyboard in Resources */,
+				EF240FB3230AE6D200C4A52F /* Assets.xcassets in Resources */,
+				EF240FB1230AE6D000C4A52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FBA230AE6D200C4A52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FC5230AE6D200C4A52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF240FA4230AE6D000C4A52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF240FAE230AE6D000C4A52F /* MainViewController.swift in Sources */,
+				EF240FAC230AE6D000C4A52F /* AppDelegate.swift in Sources */,
+				EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FB8230AE6D200C4A52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF240FC1230AE6D200C4A52F /* MessagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF240FC3230AE6D200C4A52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF240FCC230AE6D200C4A52F /* MessagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF240FBE230AE6D200C4A52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF240FA7230AE6D000C4A52F /* Messages */;
+			targetProxy = EF240FBD230AE6D200C4A52F /* PBXContainerItemProxy */;
+		};
+		EF240FC9230AE6D200C4A52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF240FA7230AE6D000C4A52F /* Messages */;
+			targetProxy = EF240FC8230AE6D200C4A52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF240FAF230AE6D000C4A52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF240FB0230AE6D000C4A52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF240FB4230AE6D200C4A52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF240FB5230AE6D200C4A52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF240FCE230AE6D200C4A52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF240FCF230AE6D200C4A52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF240FD1230AE6D200C4A52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Messages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.Messages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF240FD2230AE6D200C4A52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Messages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.Messages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF240FD4230AE6D200C4A52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.MessagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messages.app/Messages";
+			};
+			name = Debug;
+		};
+		EF240FD5230AE6D200C4A52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.MessagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messages.app/Messages";
+			};
+			name = Release;
+		};
+		EF240FD7230AE6D200C4A52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.MessagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Messages;
+			};
+			name = Debug;
+		};
+		EF240FD8230AE6D200C4A52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MessagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = van.tien.tu.MessagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Messages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF240FA3230AE6D000C4A52F /* Build configuration list for PBXProject "Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF240FCE230AE6D200C4A52F /* Debug */,
+				EF240FCF230AE6D200C4A52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF240FD0230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF240FD1230AE6D200C4A52F /* Debug */,
+				EF240FD2230AE6D200C4A52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF240FD3230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "MessagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF240FD4230AE6D200C4A52F /* Debug */,
+				EF240FD5230AE6D200C4A52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF240FD6230AE6D200C4A52F /* Build configuration list for PBXNativeTarget "MessagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF240FD7230AE6D200C4A52F /* Debug */,
+				EF240FD8230AE6D200C4A52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF240FA0230AE6D000C4A52F /* Project object */;
+}
