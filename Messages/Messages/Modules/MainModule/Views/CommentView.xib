@@ -60,6 +60,7 @@
             <connections>
                 <outlet property="commentTextField" destination="VAo-EA-Eit" id="Mv4-Wt-8J1"/>
                 <outlet property="containView" destination="epP-JU-BS5" id="eZH-nX-MGM"/>
+                <outlet property="sendButton" destination="pek-9T-QYB" id="ct8-Q9-0jl"/>
             </connections>
             <point key="canvasLocation" x="47.826086956521742" y="278.90625"/>
         </view>

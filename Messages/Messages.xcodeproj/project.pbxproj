@@ -17,8 +17,20 @@
 		EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FDB230AE70A00C4A52F /* BaseViewController.swift */; };
 		EF240FE1230AE9DF00C4A52F /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FE0230AE9DF00C4A52F /* CommentView.swift */; };
 		EF240FE3230AE9E800C4A52F /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF240FE2230AE9E800C4A52F /* CommentView.xib */; };
+		EF2BD945231235C9002D8FFD /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD944231235C9002D8FFD /* MainViewModelTests.swift */; };
+		EF2BD946231235E1002D8FFD /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650362230F349300F87B55 /* MainViewModel.swift */; };
+		EF2BD94823123794002D8FFD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65036C230F3C8200F87B55 /* Message.swift */; };
+		EF2BD949231237AE002D8FFD /* MessageCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650369230F3C6500F87B55 /* MessageCellModel.swift */; };
+		EF2BD94C231239A5002D8FFD /* MockMainViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD94B231239A5002D8FFD /* MockMainViewModelDelegate.swift */; };
+		EF2BD95023125DEA002D8FFD /* MessageCellModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD94F23125DEA002D8FFD /* MessageCellModelTests.swift */; };
+		EF2BD95323125F39002D8FFD /* MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2BD95223125F39002D8FFD /* MessageTests.swift */; };
 		EF65035B230F2D5000F87B55 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65035A230F2D5000F87B55 /* Constant.swift */; };
 		EF65035D230F2E1A00F87B55 /* TextViewMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */; };
+		EF650363230F349300F87B55 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650362230F349300F87B55 /* MainViewModel.swift */; };
+		EF650367230F3B7700F87B55 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650365230F3B7700F87B55 /* MessageCell.swift */; };
+		EF650368230F3B7700F87B55 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF650366230F3B7700F87B55 /* MessageCell.xib */; };
+		EF65036A230F3C6500F87B55 /* MessageCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF650369230F3C6500F87B55 /* MessageCellModel.swift */; };
+		EF65036D230F3C8200F87B55 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65036C230F3C8200F87B55 /* Message.swift */; };
 		EFBAE2CD230EF9D10053EC1A /* UITabelView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C0230EF9D10053EC1A /* UITabelView+Ext.swift */; };
 		EFBAE2CE230EF9D10053EC1A /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C1230EF9D10053EC1A /* UITableViewCell+Ext.swift */; };
 		EFBAE2D1230EF9D10053EC1A /* UIStoryboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C4230EF9D10053EC1A /* UIStoryboard+Ext.swift */; };
@@ -63,8 +75,17 @@
 		EF240FDB230AE70A00C4A52F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EF240FE0230AE9DF00C4A52F /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 		EF240FE2230AE9E800C4A52F /* CommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		EF2BD944231235C9002D8FFD /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
+		EF2BD94B231239A5002D8FFD /* MockMainViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMainViewModelDelegate.swift; sourceTree = "<group>"; };
+		EF2BD94F23125DEA002D8FFD /* MessageCellModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellModelTests.swift; sourceTree = "<group>"; };
+		EF2BD95223125F39002D8FFD /* MessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTests.swift; sourceTree = "<group>"; };
 		EF65035A230F2D5000F87B55 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewMaster.swift; sourceTree = "<group>"; };
+		EF650362230F349300F87B55 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EF650365230F3B7700F87B55 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		EF650366230F3B7700F87B55 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		EF650369230F3C6500F87B55 /* MessageCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellModel.swift; sourceTree = "<group>"; };
+		EF65036C230F3C8200F87B55 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		EFBAE2C0230EF9D10053EC1A /* UITabelView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabelView+Ext.swift"; sourceTree = "<group>"; };
 		EFBAE2C1230EF9D10053EC1A /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
 		EFBAE2C4230EF9D10053EC1A /* UIStoryboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Ext.swift"; sourceTree = "<group>"; };
@@ -125,6 +146,7 @@
 			children = (
 				EF240FAB230AE6D000C4A52F /* AppDelegate.swift */,
 				EF240FD9230AE6E500C4A52F /* Modules */,
+				EF65036B230F3C7600F87B55 /* Models */,
 				EFBAE2BF230EF9D10053EC1A /* Extensions */,
 				EF650359230F2D3E00F87B55 /* Utilities */,
 				EF65035E230F2E9D00F87B55 /* Libraries */,
@@ -138,6 +160,8 @@
 		EF240FBF230AE6D200C4A52F /* MessagesTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF2BD95123125F2B002D8FFD /* Models */,
+				EF2BD94123123596002D8FFD /* Modules */,
 				EF240FC0230AE6D200C4A52F /* MessagesTests.swift */,
 				EF240FC2230AE6D200C4A52F /* Info.plist */,
 			);
@@ -173,6 +197,8 @@
 		EF240FDD230AE70F00C4A52F /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
+				EF650364230F3B6500F87B55 /* Cells */,
+				EF65035F230F337D00F87B55 /* ViewModels */,
 				EF240FDE230AE74400C4A52F /* Views */,
 			);
 			path = MainModule;
@@ -189,6 +215,48 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		EF2BD94123123596002D8FFD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD942231235A2002D8FFD /* MainModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EF2BD942231235A2002D8FFD /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD943231235B6002D8FFD /* ViewModels */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		EF2BD943231235B6002D8FFD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD94A23123989002D8FFD /* MockMainViewModelDelegate */,
+				EF2BD944231235C9002D8FFD /* MainViewModelTests.swift */,
+				EF2BD94F23125DEA002D8FFD /* MessageCellModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF2BD94A23123989002D8FFD /* MockMainViewModelDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD94B231239A5002D8FFD /* MockMainViewModelDelegate.swift */,
+			);
+			path = MockMainViewModelDelegate;
+			sourceTree = "<group>";
+		};
+		EF2BD95123125F2B002D8FFD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF2BD95223125F39002D8FFD /* MessageTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EF650359230F2D3E00F87B55 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +271,32 @@
 				EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */,
 			);
 			path = Libraries;
+			sourceTree = "<group>";
+		};
+		EF65035F230F337D00F87B55 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF650362230F349300F87B55 /* MainViewModel.swift */,
+				EF650369230F3C6500F87B55 /* MessageCellModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EF650364230F3B6500F87B55 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF650365230F3B7700F87B55 /* MessageCell.swift */,
+				EF650366230F3B7700F87B55 /* MessageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EF65036B230F3C7600F87B55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF65036C230F3C8200F87B55 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		EFBAE2BF230EF9D10053EC1A /* Extensions */ = {
@@ -324,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF650368230F3B7700F87B55 /* MessageCell.xib in Resources */,
 				EF240FB6230AE6D200C4A52F /* LaunchScreen.storyboard in Resources */,
 				EF240FB3230AE6D200C4A52F /* Assets.xcassets in Resources */,
 				EF240FE3230AE9E800C4A52F /* CommentView.xib in Resources */,
@@ -353,16 +448,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBAE2D9230EF9D10053EC1A /* UIView+Ext.swift in Sources */,
+				EF650367230F3B7700F87B55 /* MessageCell.swift in Sources */,
 				EF240FAE230AE6D000C4A52F /* MainViewController.swift in Sources */,
+				EF65036D230F3C8200F87B55 /* Message.swift in Sources */,
 				EFBAE2CE230EF9D10053EC1A /* UITableViewCell+Ext.swift in Sources */,
 				EF240FAC230AE6D000C4A52F /* AppDelegate.swift in Sources */,
 				EFBAE2D4230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift in Sources */,
+				EF650363230F349300F87B55 /* MainViewModel.swift in Sources */,
 				EFBAE2D3230EF9D10053EC1A /* UIColor+Ext.swift in Sources */,
 				EFBAE2D1230EF9D10053EC1A /* UIStoryboard+Ext.swift in Sources */,
 				EF240FE1230AE9DF00C4A52F /* CommentView.swift in Sources */,
 				EFBAE2D7230EF9D10053EC1A /* NSObject+Ext.swift in Sources */,
 				EF65035B230F2D5000F87B55 /* Constant.swift in Sources */,
 				EFBAE2CD230EF9D10053EC1A /* UITabelView+Ext.swift in Sources */,
+				EF65036A230F3C6500F87B55 /* MessageCellModel.swift in Sources */,
 				EFBAE2D8230EF9D10053EC1A /* UIViewController+Ext.swift in Sources */,
 				EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */,
 				EF65035D230F2E1A00F87B55 /* TextViewMaster.swift in Sources */,
@@ -374,6 +473,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF240FC1230AE6D200C4A52F /* MessagesTests.swift in Sources */,
+				EF2BD94823123794002D8FFD /* Message.swift in Sources */,
+				EF2BD94C231239A5002D8FFD /* MockMainViewModelDelegate.swift in Sources */,
+				EF2BD949231237AE002D8FFD /* MessageCellModel.swift in Sources */,
+				EF2BD945231235C9002D8FFD /* MainViewModelTests.swift in Sources */,
+				EF2BD95323125F39002D8FFD /* MessageTests.swift in Sources */,
+				EF2BD946231235E1002D8FFD /* MainViewModel.swift in Sources */,
+				EF2BD95023125DEA002D8FFD /* MessageCellModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +684,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = MessagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -598,6 +705,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = MessagesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,6 +725,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = MessagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,6 +745,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = MessagesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

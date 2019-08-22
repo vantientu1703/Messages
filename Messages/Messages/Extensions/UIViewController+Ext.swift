@@ -26,5 +26,12 @@ extension ResponseUIViewController where Self: UIViewController {
 }
 
 extension UIViewController: ResponseUIViewController {
-    
+    func showAlert(controller: UIViewController, title: String?, message: String?, comletion: (() -> ())?) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .default) { (_) in
+            comletion?()
+        }
+        alertController.addAction(action)
+        controller.present(alertController, animated: true, completion: nil)
+    }
 }
