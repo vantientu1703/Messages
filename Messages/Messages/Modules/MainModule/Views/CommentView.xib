@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CommentView" customModule="Messages" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="87"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pek-9T-QYB">
+                    <rect key="frame" x="358" y="28.5" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="i51-mo-PZD"/>
+                        <constraint firstAttribute="width" constant="40" id="tVc-W1-3sN"/>
+                    </constraints>
+                    <state key="normal" image="send"/>
+                    <connections>
+                        <action selector="sendAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="yoS-7f-eak"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epP-JU-BS5">
+                    <rect key="frame" x="20" y="10" width="318" height="67"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAo-EA-Eit" customClass="TextViewMaster" customModule="Messages" customModuleProvider="target">
+                            <rect key="frame" x="20" y="5" width="278" height="57"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="twitter"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="VAo-EA-Eit" firstAttribute="leading" secondItem="epP-JU-BS5" secondAttribute="leading" constant="20" id="FaM-Tc-gQx"/>
+                        <constraint firstAttribute="trailing" secondItem="VAo-EA-Eit" secondAttribute="trailing" constant="20" id="IYP-wL-NYG"/>
+                        <constraint firstAttribute="bottom" secondItem="VAo-EA-Eit" secondAttribute="bottom" constant="5" id="gSg-Za-RhQ"/>
+                        <constraint firstItem="VAo-EA-Eit" firstAttribute="top" secondItem="epP-JU-BS5" secondAttribute="top" constant="5" id="uic-y2-sED"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="epP-JU-BS5" secondAttribute="bottom" constant="10" id="3Dj-FQ-0Db"/>
+                <constraint firstItem="epP-JU-BS5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="8X4-C3-pHn"/>
+                <constraint firstItem="epP-JU-BS5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="GDK-U7-oi4"/>
+                <constraint firstItem="pek-9T-QYB" firstAttribute="leading" secondItem="epP-JU-BS5" secondAttribute="trailing" constant="20" id="Ks5-PW-BWj"/>
+                <constraint firstItem="pek-9T-QYB" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="gcb-Lv-b5i"/>
+                <constraint firstAttribute="trailing" secondItem="pek-9T-QYB" secondAttribute="trailing" constant="16" id="m6h-II-TmW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="commentTextField" destination="VAo-EA-Eit" id="Mv4-Wt-8J1"/>
+                <outlet property="containView" destination="epP-JU-BS5" id="eZH-nX-MGM"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="278.90625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="send" width="96" height="96"/>
+    </resources>
+</document>

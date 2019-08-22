@@ -15,6 +15,18 @@
 		EF240FC1230AE6D200C4A52F /* MessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FC0230AE6D200C4A52F /* MessagesTests.swift */; };
 		EF240FCC230AE6D200C4A52F /* MessagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FCB230AE6D200C4A52F /* MessagesUITests.swift */; };
 		EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FDB230AE70A00C4A52F /* BaseViewController.swift */; };
+		EF240FE1230AE9DF00C4A52F /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF240FE0230AE9DF00C4A52F /* CommentView.swift */; };
+		EF240FE3230AE9E800C4A52F /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF240FE2230AE9E800C4A52F /* CommentView.xib */; };
+		EF65035B230F2D5000F87B55 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65035A230F2D5000F87B55 /* Constant.swift */; };
+		EF65035D230F2E1A00F87B55 /* TextViewMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */; };
+		EFBAE2CD230EF9D10053EC1A /* UITabelView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C0230EF9D10053EC1A /* UITabelView+Ext.swift */; };
+		EFBAE2CE230EF9D10053EC1A /* UITableViewCell+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C1230EF9D10053EC1A /* UITableViewCell+Ext.swift */; };
+		EFBAE2D1230EF9D10053EC1A /* UIStoryboard+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C4230EF9D10053EC1A /* UIStoryboard+Ext.swift */; };
+		EFBAE2D3230EF9D10053EC1A /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C6230EF9D10053EC1A /* UIColor+Ext.swift */; };
+		EFBAE2D4230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2C7230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift */; };
+		EFBAE2D7230EF9D10053EC1A /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2CA230EF9D10053EC1A /* NSObject+Ext.swift */; };
+		EFBAE2D8230EF9D10053EC1A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2CB230EF9D10053EC1A /* UIViewController+Ext.swift */; };
+		EFBAE2D9230EF9D10053EC1A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBAE2CC230EF9D10053EC1A /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		EF240FCB230AE6D200C4A52F /* MessagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesUITests.swift; sourceTree = "<group>"; };
 		EF240FCD230AE6D200C4A52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF240FDB230AE70A00C4A52F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EF240FE0230AE9DF00C4A52F /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+		EF240FE2230AE9E800C4A52F /* CommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		EF65035A230F2D5000F87B55 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewMaster.swift; sourceTree = "<group>"; };
+		EFBAE2C0230EF9D10053EC1A /* UITabelView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabelView+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2C1230EF9D10053EC1A /* UITableViewCell+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2C4230EF9D10053EC1A /* UIStoryboard+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2C6230EF9D10053EC1A /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2C7230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewHeaderFooterView+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2CA230EF9D10053EC1A /* NSObject+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2CB230EF9D10053EC1A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		EFBAE2CC230EF9D10053EC1A /* UIView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,9 @@
 			children = (
 				EF240FAB230AE6D000C4A52F /* AppDelegate.swift */,
 				EF240FD9230AE6E500C4A52F /* Modules */,
+				EFBAE2BF230EF9D10053EC1A /* Extensions */,
+				EF650359230F2D3E00F87B55 /* Utilities */,
+				EF65035E230F2E9D00F87B55 /* Libraries */,
 				EF240FB2230AE6D200C4A52F /* Assets.xcassets */,
 				EF240FB4230AE6D200C4A52F /* LaunchScreen.storyboard */,
 				EF240FB7230AE6D200C4A52F /* Info.plist */,
@@ -156,8 +183,41 @@
 			children = (
 				EF240FAD230AE6D000C4A52F /* MainViewController.swift */,
 				EF240FAF230AE6D000C4A52F /* Main.storyboard */,
+				EF240FE0230AE9DF00C4A52F /* CommentView.swift */,
+				EF240FE2230AE9E800C4A52F /* CommentView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EF650359230F2D3E00F87B55 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EF65035A230F2D5000F87B55 /* Constant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EF65035E230F2E9D00F87B55 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EF65035C230F2E1A00F87B55 /* TextViewMaster.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		EFBAE2BF230EF9D10053EC1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFBAE2C0230EF9D10053EC1A /* UITabelView+Ext.swift */,
+				EFBAE2C1230EF9D10053EC1A /* UITableViewCell+Ext.swift */,
+				EFBAE2C7230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift */,
+				EFBAE2C4230EF9D10053EC1A /* UIStoryboard+Ext.swift */,
+				EFBAE2C6230EF9D10053EC1A /* UIColor+Ext.swift */,
+				EFBAE2CA230EF9D10053EC1A /* NSObject+Ext.swift */,
+				EFBAE2CB230EF9D10053EC1A /* UIViewController+Ext.swift */,
+				EFBAE2CC230EF9D10053EC1A /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +326,7 @@
 			files = (
 				EF240FB6230AE6D200C4A52F /* LaunchScreen.storyboard in Resources */,
 				EF240FB3230AE6D200C4A52F /* Assets.xcassets in Resources */,
+				EF240FE3230AE9E800C4A52F /* CommentView.xib in Resources */,
 				EF240FB1230AE6D000C4A52F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,9 +352,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBAE2D9230EF9D10053EC1A /* UIView+Ext.swift in Sources */,
 				EF240FAE230AE6D000C4A52F /* MainViewController.swift in Sources */,
+				EFBAE2CE230EF9D10053EC1A /* UITableViewCell+Ext.swift in Sources */,
 				EF240FAC230AE6D000C4A52F /* AppDelegate.swift in Sources */,
+				EFBAE2D4230EF9D10053EC1A /* UITableViewHeaderFooterView+Ext.swift in Sources */,
+				EFBAE2D3230EF9D10053EC1A /* UIColor+Ext.swift in Sources */,
+				EFBAE2D1230EF9D10053EC1A /* UIStoryboard+Ext.swift in Sources */,
+				EF240FE1230AE9DF00C4A52F /* CommentView.swift in Sources */,
+				EFBAE2D7230EF9D10053EC1A /* NSObject+Ext.swift in Sources */,
+				EF65035B230F2D5000F87B55 /* Constant.swift in Sources */,
+				EFBAE2CD230EF9D10053EC1A /* UITabelView+Ext.swift in Sources */,
+				EFBAE2D8230EF9D10053EC1A /* UIViewController+Ext.swift in Sources */,
 				EF240FDC230AE70A00C4A52F /* BaseViewController.swift in Sources */,
+				EF65035D230F2E1A00F87B55 /* TextViewMaster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = Messages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6S43R948V;
 				INFOPLIST_FILE = Messages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
